@@ -3,17 +3,17 @@
 Documentation    Global documentation
 # Resource         ./resources/keywords.robot
 Library          SeleniumLibrary
-Library		 ./library/getip.py
-Library		 Process
+Library		    ./library/getip.py
+Library		     Process
 Test Setup       Begin Web Test
 Test Teardown    End Web Test
 
 
 *** Variables ***
-${BROWSER} =		firefox
-${URL} =    		http://192.168.0.4:5000
-# ${IP} = 		return_ip	
-${PORT} =		5000
+${BROWSER} =		chrome
+${URL} =            http://192.168.1.172:5000
+# ${IP} = 		    return_ip
+${PORT} =		    5000
 
 	
 *** Keywords ***
