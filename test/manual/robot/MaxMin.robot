@@ -19,35 +19,35 @@ End Web Test
 Display Page
        Wait Until Page Contains       Positions
 
-User Click Button Max pitch
+User Click Button Max pitch     #To maximize the pitch position
         Click Button        //*[@id="script_max_pitch"]
 
-User Click Button Min pitch
+User Click Button Min pitch   #to minimize the pitch position
         Click Button             //*[@id="script_min_pitch"]
 
-User Click Button Max lift
+User Click Button Max lift      #to maximize the lift position
         Click Button            //*[@id="script_max_lift"]
 
-User Click Button Min lift
+User Click Button Min lift         #to minimize the lift position
         Click Button            //*[@id="script_min_lift"]
 *** Test Cases ***
-Max pitch
+Max pitch                   #test case for the Max position
     [Documentation]     Clicking the Positions Max pitch
     [Tags]              max_pitch
     Display Page
     User Click Button Max pitch
-Min pitch
+Min pitch                         #test case for the Min position
     [Documentation]         Clicking the Positions Max pitch
     [Tags]                  min_pitch
     Display Page
     User Click Button Min pitch
 
-Max lift
+Max lift                      #test case for the  Max lift position
     [Documentation]     Clicking the Positions Max pitch
     [Tags]              max_lift
     Display Page
     User Click Button Max lift
-Min lift
+Min lift                      #test case for the Min lift position
     [Documentation]         Clicking the Positions Max pitch
     [Tags]                  min_lift
     Display Page
